@@ -19,18 +19,18 @@ Simulation code for the fast approach
 
 ## Run this program
 * Git clone all files under the same filepath
-* Write the command file input.in in the same filepath as the following example:
-    data_source :UCR_TS_Archive_2015/Haptics/Haptics_TRAIN
-    threshold :0.02
-    min_num :3
-    run_times :10
-    save_to :Haptics_TRAIN_2.csv
-    end
-    data_source :UCR_TS_Archive_2015/Lighting7/Lighting7_TRAIN
-    threshold :0.02
-    min_num :3
-    run_times :10
-    save_to :Lighting7_TRAIN_2.csv
-    all_end
+* Write the command file input.in in the same filepath as the following example:  
+    data_source :UCR_TS_Archive_2015/Haptics/Haptics_TRAIN  
+    threshold :0.02  
+    min_num :3  
+    run_times :10  
+    save_to :Haptics_TRAIN_2.csv  
+    end  
+    data_source :UCR_TS_Archive_2015/Lighting7/Lighting7_TRAIN  
+    threshold :0.02  
+    min_num :3  
+    run_times :10  
+    save_to :Lighting7_TRAIN_2.csv  
+    all_end  
   
 * run main.py
