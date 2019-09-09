@@ -5,17 +5,18 @@ Simulation code for the fast approach
 1. Python3
 2. Python3 third-party modules
   * numpy
-  * matplotlib (only for visualization)
+  * matplotlib (only for visualize.py and draw_curve.py)
   
 ## How each program works
 * check_k.py: Check weather the given set of points has linear properties
 * csi.py: Cubic spline interpolation
 * main.py: The program run as the enterance of the simulation
 * my_method.py: The new fast approach
-* readdata.py: Read the datas from CSV files
+* readdata.py: Read the data from CSV files
 * readmsg.py: Read input command file
 * report.py: Write experiment results into CSV files
-* visualize.py: visualize datas
+* visualize.py: visualize data
+* draw_curve.py: plot the curve fitted and scatter the original points
 
 ## Run this program
 * Git clone all files under the same filepath
